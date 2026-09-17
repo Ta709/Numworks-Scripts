@@ -1,8 +1,8 @@
 import math, kandinsky as kd, ion, time
 
-GRID = 9
-X_MIN, X_MAX = -8.0, 8.0
-Y_MIN, Y_MAX = -8.0, 8.0
+GRID = 10
+X_MIN, X_MAX = -10.0, 10.0
+Y_MIN, Y_MAX = -10.0, 10.0
 STEP_X = (X_MAX - X_MIN) / GRID
 STEP_Y = (Y_MAX - Y_MIN) / GRID
 NUM_VERTS = (GRID + 1) * (GRID + 1)
