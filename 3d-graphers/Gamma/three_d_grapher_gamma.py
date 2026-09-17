@@ -7,8 +7,9 @@ STEP_X = (X_MAX - X_MIN) / GRID
 STEP_Y = (Y_MAX - Y_MIN) / GRID
 NUM_VERTS = (GRID + 1) * (GRID + 1)
 
-print("=== NUMWORKS 3D DUAL-COLOR ENGINE ===")
-expr = input("z = f(x,y) [Default: sin(x)*cos(y)]: ").strip().replace(' ', '')
+print("=== NUMWORKS 3D ===")
+print("Default: sin(x)*cos(y)")
+expr = input("z = f(x,y): ").strip().replace(' ', '')
 if not expr: expr = "sin(x)*cos(y)"
 
 mesh_x, mesh_y, mesh_z = [], [], []
